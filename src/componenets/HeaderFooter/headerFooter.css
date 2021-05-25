@@ -1,0 +1,12 @@
+
+.logout-button {
+    bottom: 50px;
+    position: absolute;
+    width: 81%;
+}
+
+
+#header-drawer .ant-card-meta-description {
+    font-size: 10px !important;
+}
+

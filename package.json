@@ -1,0 +1,49 @@
+{
+  "name": "campaign-creation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.6.6",
+    "array-move": "^3.0.1",
+    "axios": "^0.21.1",
+    "firebase": "^8.2.1",
+    "fstream": "^1.0.12",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-dnd": "^11.1.3",
+    "react-dnd-html5-backend": "^11.1.3",
+    "react-dom": "^16.13.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-sortable-hoc": "^1.11.0",
+    "replace": "^1.2.0",
+    "replace-in-file": "^6.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "set PORT=8080 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

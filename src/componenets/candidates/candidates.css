@@ -1,0 +1,8 @@
+#invite-container {
+    margin: 100px;
+    margin-top: 10px;
+}
+
+#invite-container .ant-tabs-content-holder {
+    padding: 20px;
+}

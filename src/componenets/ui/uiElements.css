@@ -1,0 +1,293 @@
+/* 
+Cancel Ant Designing
+*/
+
+.ant-layout {
+    background: transparent;
+}
+/* #root > section > div.ant-page-header.site-page-header.ant-page-header-ghost {
+    background: red;
+} */
+
+
+
+/* #root {
+    background-image: url(/static/media/background.e713279a.jpg);
+} */
+
+.myContainer {
+    margin-left:120px;
+    height: 100%;
+}
+
+.myTitle h1{
+    width:480px;
+    margin-top: 70px;
+    font-size: 28px;
+    font-weight: 700;
+    color:#007e8b;
+}
+
+.client-title{
+    margin-left: 20px;
+    width:370px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 620;
+    color:#4d4d4d;
+}
+
+.mySubTitle h3{
+    width:380px;
+    color:#4d4d4d;
+    font-size: 20px;
+    font-weight: 600;
+}
+.myText{
+    width: 450px;
+    font-weight: 550;
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+#myBtn{
+    background-color:#007e8b;
+    color:white;
+    height:70px;
+    width:250px;
+    font-weight: 620;
+    font-size: 22px;
+    border-radius:10px;
+}
+#signupContainer .ant-input {
+    background: #e6e6e6;
+    border-radius: 5px;
+    width: 450px;
+    /* border-right-width: 1px !important; */
+}
+
+/* .row{
+    height: 200px;
+    display: inline;    
+} */
+
+#drawer-button {
+    width: 90px;
+    height: 30px;
+}
+.numberss{
+    color:#007e8b;
+    font-weight: 600;
+    font-size: 24px;
+    padding-right: 2px;
+}
+
+.headers{
+    color:#4d4d4d;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.inline-row {
+    display: inline-block;
+}
+
+.headerSpacing{
+    margin-left: 10px;
+}
+
+.searchBar{
+    margin-top: 15px;
+}
+
+.site-card-wrapper{
+    padding-top: 20px;
+}
+
+.subHeading{
+    color:#4d4d4d;
+    font-weight: 640;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.subHeaderSpacing{
+    margin-left:130px;
+}
+
+.subRow{
+    color:#4d4d4d;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 60px;
+}
+
+.company-name{
+    color:#4d4d4d;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 90px;
+}
+
+.cardTitle{
+    width: 40px;
+    font-weight: 650;
+    font-size: 14px;
+}
+
+.cardText{
+    width: 260px;
+    font-weight: 640;
+    font-size: 13px;
+}
+
+.cardIcons{
+    margin-left: 0px;
+    margin-top: -10px;
+    padding-right: 14px;
+}
+
+.cardIconText{
+    font-weight: 620;
+    list-style: none;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.Col-icon{
+    margin-top:15px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.Col-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.Col-icon span{
+    display: block;
+    width: 30px;
+    font-weight: 600;
+}
+
+.cardImage{
+    padding: 3px;
+}
+
+.ant-col{
+    padding: 0px;
+}
+.ant-card-cover{
+    background-color: #e6e6e6;
+}
+
+.ant-card-bordered .ant-card-cover {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.ant-card{
+    background: e6e6e6s;
+}
+
+.fiveIcons{
+    margin-top: 0px;
+}
+
+.ant-card-meta-description {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: -7px;
+}
+
+.ant-card-meta-title {
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ant-card-body {
+    padding-top: 18px;
+    padding-right: 1px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    height: fit-content;
+    margin-top: -20px;
+    background-color: #e6e6e6;
+}
+
+.ant-page-header {
+    height: 0px;
+}
+
+#company-container{
+    max-width: 720px;
+}
+
+#company-container .ant-card-meta-description > p:nth-child(1) {
+    white-space: nowrap;
+}
+
+
+#company-name{
+    display: inline-block;
+    width: 180px;
+}
+
+#company-heading .inline-row {
+    white-space: nowrap;
+}
+
+
+#company-details{
+    /* background-color: red; */
+    max-width: 450px;
+    display: inline-block;
+    margin-left: 128px;
+    margin-right: -159px;
+}
+
+#client-details{
+    max-width: fit-content;
+    display: inline-block;
+}
+
+.company-det{
+    width: fit-content;
+}
+
+#campaign-candidates{
+    /* background-color: red; */
+    width: 120px;
+    display: inline-block;
+
+}
+
+#campaign-numbers{
+    /* background-color: crimson; */
+    width: 190px;
+    display: inline-block;
+}
+
+#campaign-live{
+    /* background-color: yellow; */
+    width: 150px;
+    display: inline-block;
+}
+
+#add-new-campaign{
+    padding-top: 10px;
+    float: right;
+}
+
+.campaignBox:hover  {
+    background: #ffd9001c;
+    cursor: pointer;
+}

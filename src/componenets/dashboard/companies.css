@@ -1,0 +1,226 @@
+.Companies-List button {
+    border-radius: 20px;
+    float: right;
+}
+
+
+
+.List {
+    padding: 20px;
+}
+
+
+.List h1 {
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.ant-form-item-has-feedback.ant-form-item-has-success .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-has-warning .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-has-error .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-is-validating .ant-form-item-children-icon {
+    top: 60%;
+    right: 20px;
+    font-size: 14px;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: #fcd905;
+}
+
+.ant-select-item-option {
+    background-color: #e6e6e6;
+}
+
+.ant-select-clear {
+    background-color: #e6e6e6;
+}
+
+#registrationFields .ant-form-item-has-error .ant-form-item-explain, .ant-form-item-has-error .ant-form-item-split {
+    margin-top: 54px;
+}
+  
+.ant-form-item-has-feedback.ant-form-item-has-warning .ant-form-item-children-icon{
+    top: 16px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.ant-form-item-has-feedback.ant-form-item-has-error .ant-form-item-children-icon{
+    top: 16px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.ant-form-item-has-feedback.ant-form-item-is-validating .ant-form-item-children-icon {
+    /* top: 16px;
+    right: 20px; */
+    font-size: 14px;
+}
+
+.campaign-item{
+    width: 100%;
+    max-width: 250px;
+}
+
+.ant-checkbox + span {
+    padding-right: 85px;
+    padding-left: 8px;
+}
+
+.regTitle{
+        width:350px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        color:#007e8b;
+}
+
+#signupContainer .ant-checkbox-wrapper{
+    width: 500px;
+    font-size: 11px;
+    font-weight: 620;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #1890ff;
+    border-color:  #fcd905;
+    border-radius: 22px;
+}
+
+.ant-checkbox .ant-checkbox-inner{
+    border-radius: 22px;
+    border-color:  #fcd905;
+    border-width: 1.5px;
+}
+
+.ant-switch-checked {
+    background-color: #fcd905;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #fcd905;
+    border-color: white;
+}
+.ant-checkbox-checked .ant-checkbox-inner:hover{
+    border:none;
+    outline: none;
+}
+
+.col-inline{
+    margin-left:50px;
+}
+
+.input-placeholder{
+    width:460;
+    height:25 
+}
+
+#signupContainer .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#signupContainer .ant-form-item .ant-select, .ant-form-item .ant-cascader-picker {
+    width: fit-content;
+    height: 30px;
+}
+
+.ant-form-item .ant-select, .ant-form-item .ant-cascader-picker {
+    width: 125%;
+}
+
+/* #signupForm .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    width: 300px;
+} */
+
+#fname .ant-row{
+    margin-bottom: 0px;
+}
+
+#terms-conditions .ant-col .ant-col-5 .ant-form-item-control .ant-row .ant-form-item{
+    width: 20px;
+}
+
+.terms{
+    width:460px;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchBar{
+        max-width: none;
+        margin-right: 10px;
+        display: block;
+    }
+    .myContainer{
+        max-width: 100%;
+    }
+    #campaign-container{
+        max-width: 50%;
+    }
+    .campaign-item{
+        max-width:80%;
+    }
+    #company-container{
+        max-width: none;
+    }
+    .items{
+        max-width: 40%;
+    }
+    #company-heading{
+        max-width: 10%;
+    }
+    #company-items.ant-row{
+        max-width: 20%;
+    }
+    .myTitle h1{
+        max-width: 20%;
+    }
+    #formContainer{
+        margin:0px;
+        background-attachment: scroll;
+    }
+    .signupForm{
+        width: 10%;
+    }
+    .company-det{
+        width: 200px !important;
+    }
+
+    #signupContainer .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        width: 250px;
+    }
+    #signupContainer .ant-row{
+        max-width: 37%;
+        column-span: 0;
+    }
+    .col-inline{
+        margin-left: 0px;
+    }
+    .input-placeholder{
+        width: 10px;
+        height: 25px;
+    }
+    #signupContainer .ant-row .ant-form-item{
+        width: 100px;
+    }
+
+    #signupContainer .ant-input {
+        background: #e6e6e6;
+        border-radius: 5px;
+        max-width: 250px;
+    }
+
+    .terms{
+        width: 300px;
+    }
+
+    /* .Col-icon span{
+        display: block;
+        width: 200px;
+        font-weight: 600;
+    } */
+    /* .check{
+        width: 100px;
+        display: inline;
+    } */
+    
+  }
